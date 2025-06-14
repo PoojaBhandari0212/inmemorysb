@@ -65,3 +65,44 @@ mvn test
 
 You can copy and paste this into your `README.md` and adjust as needed for your project specifics.
 
+Here are the API endpoints and example request bodies for testing with Postman:
+
+<hr></hr>
+1. Get All Users
+Method: GET
+URL: http://localhost:8080/users
+Request Body: None
+
+<hr></hr>
+2. Get User by ID
+Method: GET
+URL: http://localhost:8080/users/{id}
+Replace {id} with the user ID (e.g., 1)
+Request Body: None
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com"
+}
+4. Update User
+Method: PUT
+URL: http://localhost:8080/users/{id}
+Replace {id} with the user ID (e.g., 1)
+Request Body (raw, JSON):
+<hr></hr>
+3. Create User
+Method: POST
+URL: http://localhost:8080/users
+Request Body (raw, JSON):
+
+{
+"name": "Jane Doe",
+"email": "jane.doe@example.com"
+}
+<hr></hr>
+5. Delete User
+Method: DELETE
+URL: http://localhost:8080/users/{id}
+Replace {id} with the user ID (e.g., 1)
+Request Body: None
+
+<hr></hr> Set Content-Type to application/json for POST and PUT requests.
