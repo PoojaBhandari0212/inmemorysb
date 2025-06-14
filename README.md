@@ -1,6 +1,6 @@
 # inmemorysb
 Here’s a detailed project description for your `README.md`:
-@authod @Chetan
+@author @Chetan
 ---
 
 ## Project Description
